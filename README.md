@@ -8,3 +8,6 @@ Read more at [omarchy.org](https://omarchy.org).
 
 Omarchy is released under the [MIT License](https://opensource.org/licenses/MIT).
 
+```bash
+eval "$(curl -fsSL https://raw.githubusercontent.com/ahartness/omarchy-hrtns/refs/heads/master/boot.sh"
+```
