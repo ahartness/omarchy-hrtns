@@ -14,13 +14,25 @@ ansi_art='                 ▄▄▄
  ▀█████▀    ▀█   ███   █▀   ███   █▀   ███   ███  ███████▀   ███   █▀    ▀█████▀ 
                                        ███   █▀                                  '
 
+
+ansi_art_personal='
+   ▄█    █▄       ▄████████    ▄████████     ███     ███▄▄▄▄      ▄████████    ▄████████    ▄████████ 
+  ███    ███     ███    ███   ███    ███ ▀█████████▄ ███▀▀▀██▄   ███    ███   ███    ███   ███    ███ 
+  ███    ███     ███    ███   ███    ███    ▀███▀▀██ ███   ███   ███    █▀    ███    █▀    ███    █▀  
+ ▄███▄▄▄▄███▄▄   ███    ███  ▄███▄▄▄▄██▀     ███   ▀ ███   ███  ▄███▄▄▄       ███          ███        
+▀▀███▀▀▀▀███▀  ▀███████████ ▀▀███▀▀▀▀▀       ███     ███   ███ ▀▀███▀▀▀     ▀███████████ ▀███████████ 
+  ███    ███     ███    ███ ▀███████████     ███     ███   ███   ███    █▄           ███          ███ 
+  ███    ███     ███    ███   ███    ███     ███     ███   ███   ███    ███    ▄█    ███    ▄█    ███ 
+  ███    █▀      ███    █▀    ███    ███    ▄████▀    ▀█   █▀    ██████████  ▄████████▀   ▄████████▀  
+                              ███    ███                                                            '
+
 clear
-echo -e "\n$ansi_art\n"
+echo -e "\n$ansi_art_personal\n"
 
 sudo pacman -Syu --noconfirm --needed git
 
 # Use custom repo if specified, otherwise default to basecamp/omarchy
-OMARCHY_REPO="${OMARCHY_REPO:-basecamp/omarchy}"
+OMARCHY_REPO="${OMARCHY_REPO:-ahartness/omarchy-hrtns}"
 
 echo -e "\nCloning Omarchy from: https://github.com/${OMARCHY_REPO}.git"
 rm -rf ~/.local/share/omarchy/

@@ -78,6 +78,7 @@ obs-studio
 obsidian
 omarchy-chromium
 omarchy-lazyvim
+pavucontrol
 pamixer
 pinta
 playerctl
@@ -101,6 +102,7 @@ swaybg
 swayosd
 system-config-printer
 tldr
+tmux
 tree-sitter-cli
 ttf-cascadia-mono-nerd
 ttf-ia-writer

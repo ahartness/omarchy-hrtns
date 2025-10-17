@@ -11,3 +11,16 @@ Omarchy is released under the [MIT License](https://opensource.org/licenses/MIT)
 ```bash
 eval "$(curl -fsSL https://raw.githubusercontent.com/ahartness/omarchy-hrtns/refs/heads/master/boot.sh"
 ```
+
+
+## Next Items TODO
+- Add more applications
+- Add more themes
+- Add more dotfiles
+    - Add more terminal options
+    - Add more shell options
+    - Add more editor options
+    - Add more browser options
+- Add more installation options
+- Add more documentation
+- Change to Pavucontrol for audio control

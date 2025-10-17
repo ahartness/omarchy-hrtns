@@ -10,7 +10,7 @@ window {
 
 label {
   font-family: 'CaskaydiaMono Nerd Font';
-  font-size: 11pt;
+  font-size: 14pt;
 
   color: @label;
 }
