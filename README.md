@@ -22,6 +22,7 @@ eval "$(curl -fsSL https://raw.githubusercontent.com/ahartness/omarchy-hrtns/ref
     - Add more shell options
     - Add more editor options
     - Add more browser options
+    - Add tmux options
 - Add more installation options
 - Add more documentation
 - Change to Pavucontrol for audio control
