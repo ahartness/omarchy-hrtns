@@ -24,3 +24,4 @@ eval "$(curl -fsSL https://raw.githubusercontent.com/ahartness/omarchy-hrtns/ref
 - Add more installation options
 - Add more documentation
 - Change to Pavucontrol for audio control
+- Update Logos & SVGs for Master Logo & Web App Logos
