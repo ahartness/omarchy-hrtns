@@ -15,6 +15,7 @@ eval "$(curl -fsSL https://raw.githubusercontent.com/ahartness/omarchy-hrtns/ref
 
 ## Next Items TODO
 - Add more applications
+- Automatically add my git repos and git config to the Work Folder
 - Add more themes
 - Add more dotfiles
     - Add more terminal options
@@ -25,3 +26,5 @@ eval "$(curl -fsSL https://raw.githubusercontent.com/ahartness/omarchy-hrtns/ref
 - Add more documentation
 - Change to Pavucontrol for audio control
 - Update Logos & SVGs for Master Logo & Web App Logos
+- Test about adding extensions to Chromium-based browsers
+    - If it doesnt work how I want, add a script to install firefox and make it the default browser
